@@ -1,0 +1,116 @@
+/* Media Queris */
+
+/* Desktop*/
+@media only screen and (max-width: 1200px){
+    .grid{
+        grid-template-areas: 
+        "title       img"
+        "description img"
+        "button      img"
+        ;
+    
+        width: 80%;
+    }
+    .contact .contactForm{
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+}
+
+/* Tablet */
+@media only screen and (min-width: 781px) and (max-width: 991px){
+    .carousel-caption{
+        bottom: 370px;
+    }
+    .carousel-caption p{
+        width: 100%;
+    }
+    .accordion{
+        max-width: 100%;
+        padding: 45px 60px 45px 60px;
+    }
+    .accordion .image-box{
+        height: 360px;
+        width: 220px;
+    }
+    .accordion .accordion-text{
+        width: 63%;
+    }
+}
+
+@media only screen and (max-width: 780px){
+    .navbar-nav{
+        text-align: center;
+    }
+    .carousel-caption{
+        bottom: 125px;
+    }
+    .carousel-caption h5{
+        font-size: 17px;
+    }
+    .carousel-caption a{
+        padding: 10px 15px;
+    }
+    .contact .contactForm .info{
+        height: 250px;
+        padding: 20px;
+    }
+    .contact .contactForm .info .imgBox{
+        display: none;
+    }
+    .contact .contactForm .info {
+        display: none;
+    }
+    .accordion{
+        flex-direction: column;
+    }
+    .accordion .image-box{
+        height: 360px;
+        width: 300px;
+    }
+    .accordion .accordion-text{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    /* GRID */
+
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: min-content min-content min-content min-content;
+        grid-template-areas: 
+        "title       "
+        "img         "
+        "description "
+        "button      "
+        ;
+    
+        width: 90%;
+    }
+    .grid__title{
+        text-align: center;
+    }
+    .btn{
+        margin: auto;
+    }
+    .grid__img:hover{
+        transform: none;
+    }
+
+}
+
+/* Mobile */
+@media only screen and (max-width: 480px){
+    .grid__description{
+        display: none;
+    }
+    .contactForm{
+        gap: 0px;
+        padding: 1px;
+        width: 90%;
+        height: 90%;
+    }
+    .accordion{
+        padding: 25px;
+    }
+}
