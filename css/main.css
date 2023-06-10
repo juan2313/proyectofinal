@@ -306,7 +306,7 @@ img {
 .contact .contactForm .form .texto p {
   color: #0b426c;
   line-height: 1.5;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .contact .contactForm .form .inputBox {
@@ -480,10 +480,13 @@ img {
     padding: 10px 15px;
   }
   .contact .contactForm .info {
-    height: 300px;
+    height: 250px;
     padding: 20px;
   }
   .contact .contactForm .info .imgBox {
+    display: none;
+  }
+  .contact .contactForm .info {
     display: none;
   }
   /* GRID */
@@ -510,5 +513,11 @@ img {
 @media only screen and (max-width: 480px) {
   .grid__description {
     display: none;
+  }
+  .contactForm {
+    gap: 0px;
+    padding: 1px;
+    width: 90%;
+    height: 90%;
   }
 }
