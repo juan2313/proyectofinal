@@ -292,7 +292,7 @@ img{
 .contact .contactForm .form .texto p{
     color: #0b426c;
     line-height: 1.5;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 .contact .contactForm .form .inputBox {
     display: flex;
@@ -430,7 +430,7 @@ img{
         padding: 10px 15px;
     }
     .contact .contactForm .info{
-        height: 300px;
+        height: 250px;
         padding: 20px;
     }
     .contact .contactForm .info .imgBox{
@@ -472,4 +472,12 @@ img{
     .grid__description{
         display: none;
     }
+    .contact .contactForm .form{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .contact .contactForm .info{
+        margin-bottom: 30px;
+    }
+    
 }
